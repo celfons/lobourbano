@@ -127,7 +127,7 @@
             {
                "collectionId":"2ebcbf60-53ad-e662-e64e-a6c5eb18f76c",
                "id":"66a487b6-04ca-3d1d-6e57-0baa996a0e06",
-               "name":"cadastroCliente",
+               "name":"cadastraCliente",
                "description":"cadastraCliente",
                "url":"https://uzete38.gestor.superagendador.com/api/paciente",
                "method":"POST",
@@ -153,6 +153,48 @@
                "timestamp":0,
                "version":2,
                "time":1548072371901
+            },
+            {
+               "collectionId":"2ebcbf60-53ad-e662-e64e-a6c5eb18f76c",
+               "id":"8e4283ff-d47a-a228-879d-23e27442b40f",
+               "name":"cancelarAgendamento",
+               "description":"",
+               "url":"https://uzete38.gestor.superagendador.com/administrator/index.php",
+               "method":"POST",
+               "headers":"",
+               "data":[
+                  {
+                     "key":"option",
+                     "value":"com_consultas",
+                     "type":"text"
+                  },
+                  {
+                     "key":"controller",
+                     "value":"consulta",
+                     "type":"text"
+                  },
+                  {
+                     "key":"task",
+                     "value":"updateStatus",
+                     "type":"text"
+                  },
+                  {
+                     "key":"id",
+                     "value":"273",
+                     "type":"text"
+                  },
+                  {
+                     "key":"status",
+                     "value":"7",
+                     "type":"text"
+                  }
+               ],
+               "dataMode":"urlencoded",
+               "timestamp":0,
+               "responses":[
+
+               ],
+               "version":2
             },
             {
                "collectionId":"2ebcbf60-53ad-e662-e64e-a6c5eb18f76c",
