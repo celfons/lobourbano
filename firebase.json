@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "name": "projects/lobourbano-a107f/databases/(default)/documents/clientes/ROfK49lkaE2wwywOnxIj",
+      "fields": {
+        "email": {
+          "stringValue": "marcel.resende@yahoo.com.br"
+        },
+        "password": {
+          "stringValue": "######"
+        },
+        "historico": {
+          "mapValue": {
+            "fields": {
+              "evento": {
+                "integerValue": "272"
+              }
+            }
+          }
+        },
+        "nome": {
+          "stringValue": "Marcel"
+        },
+        "telefone": {
+          "integerValue": "034999530186"
+        }
+      },
+      "createTime": "2019-01-21T13:39:52.946341Z",
+      "updateTime": "2019-01-21T13:40:39.640665Z"
+    }
+  ]
+}
